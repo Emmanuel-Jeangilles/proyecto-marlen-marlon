@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    margin-left: 10px;
+    padding: 20px;
+}
+div.prodDest {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#footer div {
+    display: flexbox;
+    background-color: #3c3c3c;
+    margin-top: 100px;
+
+}
+#footer div p {
+    color: white;
+}
+#footer div img {
+    width: 42px;
+    margin: 20px; 
+}
+h1 {
+    margin-left: 10px;
+    padding: 20px;
+}
+#main {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productos {
+    width: 300px;
+    height: auto;
+}#contacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contacto .elemnto {
+    width: 100%;
+    padding: 30px;
+}
+form {
+    background-image: url(../imagenes/hogar/hogar\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: 100px;
+}
+form .form-contact {
+    margin-bottom: 35px;
+    margin-left: 50px;
+    color: white;
+}

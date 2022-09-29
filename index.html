@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./imagenes/logo pagina .png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./paginas/ropa-de-mujer.html">Ropa de mujer</a></li>
+              <li><a class="dropdown-item" href="./paginas/cartucheras.html">Cartucheras</a></li>
+              <li><a class="dropdown-item" href="./paginas/ropa-de-bebe.html">Ropa de bebé</a></li>
+              <li><a class="dropdown-item" href="./paginas/hogar.html">Hogar</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="carrusel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h2>Productos destacados</h2>
+      <div class="prodDest">
+        <div class="container-fluid row">
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/prodDest/vestido-de-novia.jpg" class="card-img-top" alt="vestido-de-novia">
+            <div class="card-body">
+              <h5 class="card-title">Vestido de novia:  $30.000</h5>
+              <p class="card-text">Vestido de novia tejido</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/prodDest/poncho-rosa-de-bebe.jpg" class="card-img-top" alt="poncho-rosa-de-bebe">
+            <div class="card-body">
+              <h5 class="card-title">Poncho rosa de bebe: $1.200</h5>
+              <p class="card-text">Vestido de bebe tejido</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/prodDest/almohadones.jpg" class="card-img-top" alt="almohadones">
+            <div class="card-body">
+              <h5 class="card-title">Almohadones tejidos: $800 c/u</h5>
+              <p class="card-text">Almohadones tejidos</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./imagenes/prodDest/cartuchera-rosa-mariposa.jpg" class="cartuchera-rosa-mariposa" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cartuchera rosa mariposa</h5>
+              <p class="card-text">Cartuchera rosa mariposa tejida</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div>
+            <p>Síguenos en:</p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./imagenes/facebook.png" alt="fbIcono">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./imagenes/instagram.png" alt="igIcono">
+            </a>
+        </div>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
